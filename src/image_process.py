@@ -12,7 +12,7 @@ from skimage.transform import (hough_line, hough_line_peaks,
 def prepare_img(img_name):
     img = imread(img_name)
     img_gray = rgb2gray(img)
-    img_blur = gaussian(img_gray, sigma=2, multichannel=True)
+    img_blur = gaussian(img_gray, sigma=1, multichannel=True)
     img_edges = canny(img_blur, sigma=1.5, low_threshold=0.05)
 
     lines_y = []
