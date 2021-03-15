@@ -3,7 +3,13 @@
 ## Установка
 
 `pip install -r requirements.txt`
-Запустить `python main.py path/to/image`
+
+#Запуск
+`python main.py path/to/image`
+
+#Примеры
+data/yes -- изображения с положительным ответом
+data/no  -- изображения с отрицательным ответом
 
 ## Постановка задачи
 См. файл PROBLEM.md
