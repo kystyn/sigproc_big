@@ -1,8 +1,13 @@
-# Big Laboratory Work
+# Большая лабораторная работа по курсу "Обработка сигналов"
 
-Big laboratory work on Signal Processing subject
-
-# How to install
+# Установка
 
 `pip install -r requirements.txt`
-run `main.py`
+Запустить `python main.py path/to/image`
+
+# Постановка задачи
+См. файл PROBLEM.md
+
+# Как это работает
+См. файл ALGO.md
+
