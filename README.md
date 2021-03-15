@@ -4,10 +4,10 @@
 
 `pip install -r requirements.txt`
 
-# Запуск
+## Запуск
 `python main.py path/to/image`
 
-# Примеры
+## Примеры
 data/yes -- изображения с положительным ответом
 data/no  -- изображения с отрицательным ответом
 
